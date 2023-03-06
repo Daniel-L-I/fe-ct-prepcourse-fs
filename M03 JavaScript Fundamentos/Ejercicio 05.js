@@ -35,7 +35,7 @@ function obtenerSaludo(nombre) {
   // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
   // Ejemplo: "Martin" ---> "Hola Martin!"
   // Tu código:
-  return 'Hola '+ nombre + '!'; 
+  return 'Hola ' + nombre + '!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -54,7 +54,7 @@ function retornarPerimetro(lado) {
 function areaDelTriangulo(base, altura) {
   // Calcula el área de un triángulo y retorna el resultado.
   // Tu código:
-  return (base * altura)/2;
+  return (base * altura) / 2;
 }
 
 function deEuroAdolar(euro) {
@@ -70,12 +70,12 @@ function esVocal(letra) {
   // Si no es vocal, tambien debe retornar "Dato incorrecto".
   // Tu código:
   if (letra.length > 1) {
-   return "Dato incorrecto";
-  } else if (letra === "a" ||letra === "e" ||letra === "i" ||letra === "o" ||letra === "u") {
-   return "Es vocal";
-  }else{
-   return "Dato incorrecto"
-} 
+    return "Dato incorrecto";
+  } else if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+    return "Es vocal";
+  }else {
+    return "Dato incorrecto"
+  }
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
