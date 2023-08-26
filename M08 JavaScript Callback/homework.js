@@ -40,7 +40,7 @@ function forEach(array, cb) {
    // Debes iterar sobre el arreglo, y por cada elemento ejecutar el callback.
    // Debes pasarle el elemento como argumento al callback.
    // Tu código:
-   array.forEach(function (el, index) {
+   array.forEach(function (el) {
       cb(el)
    })
 }
